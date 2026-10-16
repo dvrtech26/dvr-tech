@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+:root {
+  --dvr-bg: #0d1215;
+  --dvr-surface: #161b1f;
+  --dvr-green: #00d67a;
+  --dvr-text: #f5f5f5;
+  --dvr-muted: #9aa3a8;
+  --dvr-line: rgba(154, 163, 168, 0.18);
+  --dvr-font: 'Montserrat', 'Poppins', Arial, sans-serif;
+  color-scheme: dark;
+  font-family: var(--dvr-font);
+  scroll-behavior: smooth;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--dvr-bg); scroll-padding-top: 92px; }
+body { margin: 0; min-width: 320px; background: var(--dvr-bg); color: var(--dvr-text); }
+button, input, textarea { font: inherit; }
+a { color: inherit; }
+::selection { background: var(--dvr-green); color: var(--dvr-bg); }
