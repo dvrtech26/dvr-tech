@@ -4,7 +4,7 @@ Site institucional da DVR Tech desenvolvido em Angular 22. O projeto segue a ide
 
 ## Requisitos
 
-- Node.js 22 ou superior
+- Node.js 22.22.3 ou superior
 - npm 10 ou superior
 
 ## Desenvolvimento local
